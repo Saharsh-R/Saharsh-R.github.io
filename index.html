@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Astral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
@@ -145,12 +140,6 @@
 
 					</div>
 
-				<!-- Footer -->
-					<!-- <div id="footer">
-						<ul class="copyright">
-							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div> -->
 
 			</div>
 
@@ -171,11 +160,9 @@
         data: extraData,
         dataType: 'jsonp',  // This won't really work. It's just to use a GET instead of a POST to allow cookies from different domain.
         error: function () {
-            // Submit of form should be successful but JSONP callback will fail because Google Forms
-            // does not support it, so this is handled as a failure.
+
             alert('Thank you for your secret message! I will definitely read it 😉')
-            // You can also redirect the user to a custom thank-you page:
-            // window.location = 'http://www.mydomain.com/thankyoupage.html'
+  
         }
     })
 })
